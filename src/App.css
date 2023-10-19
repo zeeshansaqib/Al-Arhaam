@@ -1,0 +1,106 @@
+
+.App {
+  text-align: center;
+}
+
+
+.main-container{
+  height: 93vh;
+  width: 100vw;
+  position: relative;
+  background-color: #f2f7f8;
+  overflow: auto;
+
+}
+.main-heading{
+  display: flex;
+  width: 100%;
+  height: 30%;
+  /* margin-top:100px; */
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(223, 247, 255);
+
+}
+.main-header{
+  display: flex;
+  width: 100%;
+  height: 10%;
+  /* margin-top:100px; */
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(223, 247, 255);
+
+}
+.login-container {
+  height: 69%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(223, 247, 255);
+}
+.submit-button {
+  width: 500px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.login-content {
+  height: 600px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 100px; */
+  gap: 20px;
+}
+.alert-div{
+width: 600px;
+position: absolute;
+margin: 10px;
+float: right;
+top: 0;
+right: 0;
+
+}
+.header-nav{
+  height: 80px;
+  width: 100%;
+  display: flex;
+    justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+  background-color: rgb(223, 247, 255);
+}
+.form-admin-booking{
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  /* background-color: rgb(223, 247, 255); */
+}
+.form-admin-container{
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  /* background-color: rgb(223, 247, 255); */
+}
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.no-style{
+  text-decoration: none;
+  color: #fff;
+}
